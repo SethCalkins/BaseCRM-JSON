@@ -1,0 +1,20 @@
+curl -X GET "https://sync.futuresimple.com/api/v1/search.xml?term=ti" \
+-H "X-Basecrm-Device-UUID: bfd2dccb-08a3-4436-89a0-13d750e75972" \
+-H "X-PLATFORM-VERSION: 8.1" \
+-H "X-CLIENT-VERSION: 2.19" \
+-H "X-DEVICE-ID: iPhone7,1" \
+-H "User-Agent: Base/806 CFNetwork/711.1.12 Darwin/14.0.0" \
+-H "Content-Type: application/json" \
+-H "Accept: */*" \
+-H "Host: sync.futuresimple.com" \
+-H "Connection: keep-alive" \
+-H "X-Pipejump-Auth: <APIKEY>" \
+-H "X-DEVICE-UNIQUE-ID: 62CD1228-218A-444E-9696-FFF99F7CDFFF" \
+-H "Accept-Encoding: gzip, deflate" \
+-H "X-Futuresimple-Token: <APIKEY>" \
+-H "Accept-Language: en-US" \
+-H "X-Futuresimple-Api-Token: <APIKEY>" \
+-H "X-CLIENT-TYPE: ios-iphone" \
+-L \
+-m 30 \
+-v \
